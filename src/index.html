@@ -24,7 +24,7 @@
     />
 
     <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
       rel="stylesheet"
     />
 
@@ -35,6 +35,34 @@
     <link rel="stylesheet" href="./styles/css/main.min.css" />
   </head>
   <body>
+    <header class="header">
+      <div class="logo">
+        <img src="./img/icons/logo.svg" alt="logo" class="image" />
+        <a href="./index.html" class="logo-title">HooBank</a>
+      </div>
+
+      <nav class="navbar">
+        <ul class="navbar__lists">
+          <li class="navbar__list">
+            <a href="./index.html" class="navbar__link">Home</a>
+          </li>
+          <li class="navbar__list">
+            <a href="./pages/about.html" class="navbar__link">About Us</a>
+          </li>
+          <li class="navbar__list">
+            <a href="./pages/features.html" class="navbar__link">Features</a>
+          </li>
+          <li class="navbar__list">
+            <a href="./pages/solution.html" class="navbar__link"
+              >Solution <span class="badge badge-dark">3</span></a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="btns btns__add btns__up btns__up_hide">Move Up</div>
+
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -54,5 +82,6 @@
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
     <script type="module" src="./js/swiper.js"></script>
+    <script type="module" src="./js/scroll_up.js"></script>
   </body>
 </html>

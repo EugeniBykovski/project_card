@@ -128,6 +128,40 @@ body {
   margin: 0 auto;
 }
 
+.btns {
+  transition: all 0.3s;
+  display: inline-block;
+  width: 140px;
+  height: 45px;
+  margin: 4rem;
+  text-decoration: none;
+  line-height: 45px;
+  border-radius: 45px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #ffffff;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+.btns:hover {
+  filter: blur(4px);
+  box-shadow: 0 5px 10px rgba(18, 95, 69, 0.4);
+  transform: translateY(-3px);
+  cursor: pointer;
+}
+.btns__add {
+  background: #20da7d;
+}
+.btns__up {
+  position: fixed;
+  right: 20px;
+  bottom: 0;
+}
+.btns__up_hide {
+  display: none;
+}
+
 .swiper {
   width: 100%;
   height: auto;
@@ -146,4 +180,17 @@ body {
 
 .line .swiper-scrollbar {
   display: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 8rem;
+  padding: 2rem;
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+  z-index: 10;
 }/*# sourceMappingURL=main.css.map */

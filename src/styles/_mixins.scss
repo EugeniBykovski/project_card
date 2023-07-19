@@ -8,6 +8,10 @@
   transition: all 0.3s;
 }
 
+@mixin filter {
+  filter: blur(4px);
+}
+
 @mixin container {
   max-width: 1350px;
   margin: 0 auto;
